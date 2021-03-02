@@ -14,7 +14,9 @@ h2{
     text-transform: uppercase;
 }
 
+
 /*star*/
+/*
 .star{
     font-size: 100px;
     border-top: 1px solid black;
@@ -31,7 +33,7 @@ span{
     margin-top: -25;
     display: inline-block;
     z-index: 2;
-}
+}*/
 
 /*BACKGROUND COLOR*/
 .blu_scuro{
@@ -93,6 +95,10 @@ nav li a {
 /*PORTFOLIO*/
 #portfolio{
     text-align: center;  
+}
+
+.box_img{
+    margin-bottom: 30px;
 }
 /*FINE PORTFOLIO*/
 

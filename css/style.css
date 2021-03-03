@@ -124,6 +124,11 @@ nav li a {
     border: 1px solid white;
     margin: 15px 0 30px 0;
 }
+
+.download_button:hover{
+    background-color: white;
+    color:  #1abc9c;
+}
 /*FINE ABOUT*/
 
 /*CONTACT*/
@@ -163,20 +168,19 @@ footer{
     padding: 30px 0 40px 0;
 }
 
-.icon_social{
-    font-size: 25px;
+.icon_social li{
+    display: inline-block;
     width: 50px;
     height: 50px;
     border: 1px solid white;
-    border-radius: 50%;
-    position: relative;
 }
 
-footer i{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
+.icon_social a{
+    color: white;
+}
+
+.icon_social i{
+    font-size: 25px;
 
 }
 
